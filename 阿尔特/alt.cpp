@@ -19,10 +19,12 @@ class alt
  *
  */
 {
+#define notfindsymbol -1
  protected:
     Object Data;
     alt* Next;
     alt* Head;
+
  public:
     alt()
     {
@@ -77,7 +79,7 @@ class alt
             Iter++;
             next= next->Next;
         }
-        return -1;
+        return notfindsymbol;
     }
     void del(int Iter)
     {
