@@ -12,8 +12,6 @@ class zyalt
  *
  * any questions please contact zy
  *
- @ zhouy676
- *
  * All rights reserved
  *
  * 2021
